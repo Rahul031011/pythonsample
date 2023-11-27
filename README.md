@@ -42,7 +42,7 @@ def main():
         print(f"Array [{i}] = \"{line}\"")
 
 
-if _name_ == "__main__":
+if __name__ == "__main__":
     main()
 
 
