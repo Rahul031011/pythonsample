@@ -1,4 +1,3 @@
-# pythonsample
 def justify_paragraph(paragraph, page_width):
     words = paragraph.split()
     lines = []
@@ -31,7 +30,6 @@ def justify_paragraph(paragraph, page_width):
 
     return justified_lines
 
-
 def main():
     paragraph = "This is a sample text but a complicated problem to be solved, so we are adding more text to see that it actually works."
     page_width = 20
@@ -41,8 +39,5 @@ def main():
     for i, line in enumerate(justified_array, 1):
         print(f"Array [{i}] = \"{line}\"")
 
-
 if __name__ == "__main__":
     main()
-
-
